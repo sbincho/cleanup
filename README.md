@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c.svg)](https://pytorch.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/FastAPI-%2334D058.svg)](https://fastapi.tiangolo.com/ko/)
 
 </div>
 

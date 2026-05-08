@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 스포츠</title>
+    <link rel="stylesheet" href="/static/cleanup_css.css">
+</head>
+<body>
+    <header class="defaultheader_gamecenter">
+        <div class="defaultheader_sports">
+            <h1 class="defaultheader_logo_area">
+                <a href="https://www.naver.com/" class="defaultheader_logo_naver">
+                    <img src="/static/IMG_0317.png" alt="네이버 로고" class="logo">
+                </a>
+                <span class="defaultheader_logo_sports">클린업</span>
+            </h1>
+            <div class="defaultheader_tool_area">
+                <div class="defalutheader_link_ranking_area">
+                    <a href="https://sports.news.naver.com/kbaseball/record/index?category=kbo" class="defalutheader_link_ranking">
+                        <img src="/static/rank.svg" alt="순위" class="logo">
+                    </a>
+                </div>
+                <div class="defalutheader_link_schedule_area">
+                    <a href="https://m.sports.naver.com/kbaseball/schedule/index?category=kbo&date=2024-08-07" class="defalutheader_link_schedule">
+                        <img src="/static/cal.svg" alt="Image 2" class="logo">
+                    </a>
+                </div>
+                <a href="https://sports.news.naver.com/index" class="defaultheader_menu">
+                    <img src="/static/menu.svg" alt="Image 3" class="logo">
+                </a>
+            </div>
+        </div>
+    </header>
+        <div id="content" class="sticky_boundary" role="main" style>
+            <div class="home_container">
+                <div class="home_sub_section">
+                    <div class="home_sticky_area">
+                        <div class="gamelist_game_mid">
+                            <div class="gamelist_list">
+                                <h2 class="blind">경기 선택</h2>
+                                <div class="gamelist_scroller">
+                                    <div class="eg-flick-viewport" style="position: relative; z-index: 2000; overflow:visible; min-width:100%; height: 100%; touch-action: pan-x; user-select:none; -webkit-user-drag:none; width:145px">
+                                    <ul class="eg-flick-camera" style="width: 100%; height: 100%; will-change: transform; transform: translate3d(0px, 0px, 0px);">
+                                            <li role="presentation" class="gamelist_list_item" style="position: absolute; top: 0px;">
+                                                <a class="gamelist_link" id="selected" aria-selected="true" role="tab">
+                                                    <em class="gamelist_schedule">7회말</em>
+                                                    <p class="gamelist_team">
+                                                        <span class="gamelist_emblem">
+                                                            <img src="\static\kia.png" width="22" height="22">
+                                                        </span>
+                                                        <span class="gamelist_name">KIA</span>
+                                                        <span class="gamelist_score">4</span>
+                                                    </p>
+                                                    <p class="gamelist_team">
+                                                        <span class="gamelist_emblem">
+                                                            <img src="\static\SS.png" alt width="22" height="22">
+                                                        </span>
+                                                        <span class="gamelist_name">삼성</span>
+                                                        <span class="gamelist_score">4</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="gamelist_list_item" style="position: absolute; top: 84px;">
+                                                <a class="gamelist_link" aria-selected="false" role="tab">
+                                                    <em class="gamelist_schedule">6회초</em>
+                                                    <p class="gamelist_team">
+                                                        <span class="gamelist_emblem">
+                                                            <img src="\static\LT.png" alt width="22" height="22">
+                                                        </span>
+                                                        <span class="gamelist_name">롯데</span>
+                                                        <span class="gamelist_score">8</span>
+                                                    </p>
+                                                    <p class="gamelist_team">
+                                                        <span class="gamelist_emblem">
+                                                            <img src="\static\KT.png" alt width="22" height="22">
+                                                        </span>
+                                                        <span class="gamelist_name">KT</span>
+                                                        <span class="gamelist_score">3</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="gamelist_list_item" style="position: absolute; top: 168px;">
+                                                <a class="gamelist_link" aria-selected="false" role="tab">
+                                                    <em class="gamelist_schedule">8회말</em>
+                                                    <p class="gamelist_team">
+                                                        <span class="gamelist_emblem">
+                                                            <img src="\static\NC.png" alt width="22" height="22">
+                                                        </span>
+                                                        <span class="gamelist_name">NC</span>
+                                                        <span class="gamelist_score">1</span>
+                                                    </p>
+                                                    <p class="gamelist_team">
+                                                        <span class="gamelist_emblem">
+                                                            <img src="\static\LG.png" alt width="22" height="22">
+                                                        </span>
+                                                        <span class="gamelist_name">LG</span>
+                                                        <span class="gamelist_score">1</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="gamelist_list_item" style="position: absolute; top: 252px;">
+                                                <a class="gamelist_link" aria-selected="false" role="tab">
+                                                    <em class="gamelist_schedule">5회말</em>
+                                                    <p class="gamelist_team">
+                                                        <span class="gamelist_emblem">
+                                                            <img src="\static\OB.png" alt width="22" height="22">
+                                                        </span>
+                                                        <span class="gamelist_name">두산</span>
+                                                        <span class="gamelist_score">5</span>
+                                                    </p>
+                                                    <p class="gamelist_team">
+                                                        <span class="gamelist_emblem">
+                                                            <img src="\static\SK.png" alt width="22" height="22">
+                                                        </span>
+                                                        <span class="gamelist_name">SSG</span>
+                                                        <span class="gamelist_score">9</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="gamelist_list_item" style="position: absolute; top: 336px;">
+                                                <a class="gamelist_link" aria-selected="false" role="tab">
+                                                    <em class="gamelist_schedule">7회초</em>
+                                                    <p class="gamelist_team">
+                                                        <span class="gamelist_emblem">
+                                                            <img src="\static\WO.png" alt width="22" height="22">
+                                                        </span>
+                                                        <span class="gamelist_name">키움</span>
+                                                        <span class="gamelist_score">7</span>
+                                                    </p>
+                                                    <p class="gamelist_team">
+                                                        <span class="gamelist_emblem">
+                                                            <img src="\static\HH.png" alt width="22" height="22">
+                                                        </span>
+                                                        <span class="gamelist_name">한화</span>
+                                                        <span class="gamelist_score">2</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "home_main_section">
+                    <section class="home_game_head">
+                        <h2 class="blind">경기 주요 정보</h2>
+                        <div class="liveplayer_player">
+                            <div class="liveplayer_webplayer_wrap">
+                                <iframe src="https://www.youtube.com/embed/H8v8lEjsOqs?si=jXfolrEO_Ezf-A7F" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="matchbox_comp_match_box">
+                            <div class="matchbox_info">
+                                <p class="matchbox_state">7회말</p>
+                                <p class="matchbox_date">
+                                    08.18
+                                    <span class="matchbox_time">18:00</span>
+                                </p>
+                                <p class="matchbox_stadium">광주</p>
+                            </div>
+                            <div class="matchbox_home">
+                                <div class="matchbox_team_area">
+                                    <div class="matchbox_image">
+                                        <img src="/static/SS.png" alt width="72" height="72">
+                                    </div>
+                                    <div class="matchbox_text">
+                                        <em class="matchbox_name">삼성</em>
+                                        <p class="matchbox_pitcher">
+                                            투수 최지광
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="matchbox_score_area">
+                                    <strong class="matchbox_score">
+                                        <span class="blind">점수</span>
+                                        4
+                                    </strong>
+                                </div>
+                            </div>
+                            <div class="matchbox_away">
+                                <div class="matchbox_team_area">
+                                    <div class="matchbox_image">
+                                        <img src="/static/kia.png" alt width="72" height="72">
+                                    </div>
+                                    <div class="matchbox_text">
+                                        <em class="matchbox_name">
+                                            <i class="matchbox_badge">홈</i>
+                                            KIA
+                                        </em>
+                                        <p class="matchbox_pitcher">
+                                            투수 곽도규
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="matchbox_score_area">
+                                    <strong class="matchbox_score">
+                                        <span class="blind">점수</span>
+                                        4
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home_score_area">
+                            <div class="scorebox_comp_score_box">
+                                <div class="scorebox_score_board">
+                                    <div class="scorebox_title" aria-hidden="True">
+                                        <div class="scorebox_team">팀명</div>
+                                        <div class="scorebox_home">KIA</div>
+                                        <div class="scorebox_away">삼성</div>
+                                    </div>
+                                    <div class="scorebox_round">
+                                        <table class="scorebox_board_table">
+                                            <caption class="blind">스코어보드 경기현황</caption>
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">
+                                                        <span class="blind">팀명</span>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <span>1</span>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <span>2</span>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <span>3</span>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <span>4</span>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <span>5</span>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <span>6</span>
+                                                    </th>
+                                                    <th scope="col" class="scorebox_on">
+                                                        <span>7</span>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <span>8</span>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <span>9</span>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">
+                                                        <span class="blind">삼성</span>
+                                                    </th>
+                                                    <td>0</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>1</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">
+                                                        <span class="blind">KIA</span>
+                                                    </th>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>1</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="scorebox_result">
+                                        <table class="scorebox_board_table">
+                                            <caption class="blind">스코어보드 종합</caption>
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">R</th>
+                                                    <th scope="col">H</th>
+                                                    <th scope="col">E</th>
+                                                    <th scope="col">B</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>11</td>
+                                                    <td>0</td>
+                                                    <td>3</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>12</td>
+                                                    <td>3</td>
+                                                    <td>1</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <aside class="home_expanded_section">
+                    <div class="cheertab_comp_cheer_tab">
+                        <div class="cheertab_comment_area">
+                            <div class="commentmodule_comp_comment">
+                                <div class="commentmodule_comment_title">
+                                    <h3 class="blind">응원톡</h3>
+                                    <img src="\static\cheertalk.svg" alt="응원오픈톡" class="commentmodule_logo_cheer_talk" width="92" height="18">
+                                </div>
+                                <div class="u_cbox" id="cbox_module">
+                                    <div class="u_cbox_wrap">
+                                        <div class="u_cbox_write_wrap">
+                                            <div class="u_cbox_write_box">
+                                                <form action="" onsubmit="sendMessage(event)" class="chat-form">
+                                                    <div class="u_cbox_profile_area">
+                                                        <div class="u_cbox_profile">
+                                                            <div class="u_cbox_box_name">
+                                                                <span id="ws-id"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <textarea id="messageText" autocomplete="off" maxlength="300" placeholder="메시지를 입력해주세요."></textarea>
+                                                    <div class="form-footer">
+                                                        <span class="char-count">0 / 300</span>
+                                                        <button type="submit">등록</button>
+                                                    </div>
+                                                </form>
+                                            </div>   
+                                        </div>
+                                        <div id="cbo_x_module_wai_ucbox_content_wap_tap panel" tabindex="0" class="u_cbox_content_wrap" style="outline: 0">
+                                            <ul class="u_cbox_list">
+                                                <li class="u_cbox_comment">
+                                                    <div class="u_cbox_comment_box">
+                                                        <div class="u_cbox_area">
+                                                            <div class="u_cbox_area">
+                                                                <div class="u_cbox_info">
+                                                                    <span class="u_cbox_info_main">
+                                                                        <span class="u_cbox_name"></span>
+                                                                    </span>
+                                                                </div>
+                                                                <div class="u_cbox_text_wrap">
+                                                                    <span class="u_cbox_contents"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="u_cbox_comment_box_mine">
+                                                        <div class="u_cbox_area">
+                                                            <div class="u_cbox_area">
+                                                                <div class="u_cbox_text_wrap">
+                                                                    <span>
+                                                                        <ul id="messages"></ul>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+        </div>
+    </main>
+    <script src="/static/cleanup_js.js"></script>
+</body>
+</html>

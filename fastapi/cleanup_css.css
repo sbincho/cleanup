@@ -1,0 +1,1130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #edeff5;
+    color: #000;
+}
+
+body, button, dd, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, input, legend, li, menu, nav, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.25;
+}
+
+/* ---------------------------- 헤더 --------------------------- */
+.defaultheader_gamecenter{
+    background-color: #294faa;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    color: white;
+}
+
+.defaultheader_gamecenter .defaultheader_sports {
+    max-width: 1428px;
+    margin: 0 auto;
+    position: relative;
+    height: 50px;
+    color: #fff;
+}
+
+.defaultheader_gamecenter .defaultheader_logo_area {
+    float: left;
+    display: flex;
+}
+
+.defaultheader_gamecenter .defaultheader_logo_area .defaultheader_logo_naver {
+    margin-left: 12px;
+}
+
+.defaultheader_gamecenter .defaultheader_logo_area .defaultheader_logo_naver {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 12px 8px 12px 12px;
+}
+
+.logo {
+    width: 26px;
+    height: 26px;
+}
+
+@font-face {
+    font-family: 'SsangmunDongB';
+    src: url('/static/Typo_SsangmunDongB.ttf') format('truetype');
+}
+
+.defaultheader_gamecenter .defaultheader_logo_area .defaultheader_logo_sports {
+    font-family: 'SsangmunDongB';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    vertical-align: top;
+}
+
+.defaultheader_gamecenter .defaultheader_tool_area {
+    margin-right: 10px;
+}
+
+.defaultheader_gamecenter .defaultheader_tool_area {
+    float: right;
+    display: flex;
+}
+
+.defaultheader_gamecenter .defalutheader_link_ranking_area {
+    position: relative;
+}
+
+.defaultheader_gamecenter .defalutheader_link_ranking {
+    display: block;
+    padding: 12px 8px 13px;
+}
+
+.defaultheader_gamecenter .defalutheader_schedule_ranking_area {
+    position: relative;
+}
+
+.defaultheader_gamecenter .defalutheader_link_schedule {
+    display: block;
+    padding: 12px 8px 13px;
+}
+
+.defaultheader_menu {
+    display: inline-block;
+    padding: 12px 13px 13px 8px;
+    border: 0;
+}
+
+/* ---------------------------------------------------------------------------*/
+
+.sticky_boundary {
+    padding: 20px 0;
+}
+
+.home_container {
+    max-width: 1380px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 22 0 30px;
+    position: relative;
+}
+
+.blind, .u_skip {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+/* ---------------------------------------------------------------- */
+.home_sub_section {
+    margin-right: 24px;
+    width: 144px;
+}
+
+.home_sticky_area {
+    position: sticky;
+    top: 72px;
+    z-index: 9997;
+}
+
+.gamelist_game_mid {
+    position: relative;
+}
+
+/* 게임리스트 위치 조정 */
+.gamelist_game_mid .gamelist_list {
+    height: 416px;
+    margin-top: 0;
+}
+
+.gamelist_list {
+    position: relative;
+    white-space: nowrap;
+    z-index: 10;
+    margin-top: 8px; /* 게임리스트 끼리 간격 */
+}
+
+.gamelist_game_mid .gamelist_scroller {
+    height: 100%;
+}
+
+/* @media (min-width: 1024px) {} */
+.gamelist_list .gamelist_scroller {
+    padding: 0;
+}
+
+/* @media (min-width: 1024px) {} */
+.gamelist_list .gamelist_scroller {
+    margin-right: -1px;
+}
+
+.gamelist_list .gamelist_scroller {
+    /*  overflow: hidden; */
+    padding: 0 10px;
+}
+
+.gamelist_list .gamelist_list_item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.gamelist_game_mid .gamelist_link {
+    width: 144px;
+    height: 80px;
+}
+
+/* @media (min-width: 1024px) {} */
+.gamelist_list .gamelist_link {
+    /* width: 147px; */
+    padding-right: 14px;
+}
+
+/* @media (min-width: 1024px) {} */
+.gamelist_list .gamelisk_link {
+    padding: 8px 12px;
+}
+
+.gamelist_list .gamelist_link {
+    position: relative;
+    display: block;
+    width: 136px;
+    height: 76px;
+    padding: 8px 10px 8px 8px; 
+    background-color:#fff;
+    border-radius: 4px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+
+.gamelist_list .gamelist_list_item .gamelist_schedule {
+    /* 경기 중 글자  */
+    color: #ff3d68;
+}
+
+.gamelist_game_mid .gamelist_schedule {
+    padding-top: 3px;
+}
+
+.gamelist_schedule {
+    /* 경기 중 글자 크기 */
+    display: block;
+    padding: 1px 0 2px 1px;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 600;
+    letter-spacing: -.2px;
+}
+
+.gamelist_list .gamelist_list_item.gamelist_link .gamelist_team {
+    font-weight: 500;
+    color: #000;
+}
+
+.gamelist_list .gamelist_team {
+    /* 글자크기 조정되는듯 */
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -.7px; /* 글자 넓이 */
+    color: #242424;
+}
+
+.gamelist_list .gamelist_emblem img {
+    width: 22px;
+    height: 22px;
+    vertical-align: top;
+}
+
+.gamelist_list .gamelist_emblem {
+    /* 경기리스트 팀 엠블럼 */
+    display: block;
+    margin-right: 2px;
+}
+
+.gamelist_list .gamelist_name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 1px;
+}
+
+.gamelist .gamelist_lisst_item .gamelist_link .gamelist_score {
+    font-weight: 500;
+}
+
+.gamelist_list .gamelist_score {
+    margin-left: auto;
+}
+
+.gamelist_list .gamelist_score {
+    /* 경기 종료 글자 위치 */
+    min-width: 9px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#selected {
+    /* 선택된 경기 테두리 */
+    border-color: #ff3d68;
+}
+
+.gamelist_list .gamelist_link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #e2e5ed;
+    border-radius: 4px;
+    content: "";
+}
+/* ---------------------------------------------------------------- */
+
+.home_main_section {
+    width: 615px; /* 임의로 변경 : 원래 850px; */
+}
+
+.home_main_section .home_game_head {
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.liveplayer_player {
+    overflow: hidden;
+    position: relative;
+    padding-top: 56.25%;
+    background-color: #010101;
+}
+
+.liveplayer_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.cheertab_area {
+    flex: 2;
+    min-width: 200px;
+    padding: 20px; /* 좌우 여백 추가 */
+    background-color: white; /* 하늘색 배경 */
+}
+
+.liveplayer_webplayer_wrap {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #010101;
+}
+
+.liveplayer_webplayer_wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*width: 850px;
+    height: 478.13px;*/
+}
+
+
+/* 스코어보드 */
+.matchbox_comp_match_box {
+    height: 91px;
+    position: relative;
+    display: flex;
+    background: #294faa;
+    border-top: 1px solid rgba(0, 0, 0, .07);
+    border-bottom: 1px solid rgba(0, 0, 0, .08);
+    color:#fff;
+}
+
+.matchbox_comp_match_box .matchbox_info {
+    bottom: 11px;
+}
+
+.matchbox_info {
+    position: absolute;
+    left: 70px;
+    right: 70px;
+    text-align: center;
+}
+
+/* 9회말 경기박스 */
+.matchbox_comp_match_box .matchbox_state {
+    background-color: #f23f58;
+}
+
+.matchbox_state { 
+    /* 경기 종료 뒤 네이비 박스 */
+    padding: 0 11px;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 8px;
+    /* padding: 0 10px; */
+    height: 20px;
+    border-radius: 9.5px;
+    /* font-size: 12px; */
+    line-height: 20px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.matchbox_date {
+    /* 경기 날짜 및 시간 */
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 13px
+}
+
+.matchbox_date .matchbox_time {
+    padding-left: 2px;
+}
+
+.matchbox_stadium {
+    /* 경기장 글자 */
+    margin-top: 3px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    line-height: 17px;
+    color: #91adf1
+}
+
+.matchbox_comp_match_box .matchbox_home {
+    padding-right: 73px;
+}
+
+/* 스코어보드 - 팀 */
+.matchbox_home {
+    display: flex;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.matchbox_comp_match_box .matchbox_team_area {
+    padding: 5px 0 0;
+}
+
+.matchbox_team_area {
+    display: block;
+    -webkit-box-flex: 1;
+    flex: 1 1;
+    min-width: 0;
+    box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    /*justify-content: center;*/
+}
+
+.matchbox_home .matchbox_image {
+    float: right;
+}
+
+.matchbox_team_area .matchbox_image {
+    text-align: center;
+}
+
+.matchbox_image img {
+    width: 72px;
+    height: 72px;
+    vertical-align: top;
+}
+
+.matchbox_comp_match_box .matchbox_team_area .matchbox_text {
+    height: 74px;
+}
+
+.matchbox_home .matchbox_team_area .matchbox_text {
+    text-align: right;
+}
+
+.matchbox_team_area .matchbox_text {
+    /* 팀로고랑 팀이름 간격 조절 */
+    padding: 0 5px;
+}
+
+.matchbox_team_area .matchbox_text {
+    display: flex;
+    min-height: 54px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.matchbox_team_area .matchbox_text {
+    letter-spacing: -.5px;
+}
+
+.matchbox_team_area .matchbox_name {
+    font-size: 20px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+}
+
+.matchbox_team_area .matchbox_pitcher {
+    /* 팀 및 투수 이름 */
+    margin-top: 4px;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 15px;
+    color: #91adf1;
+}
+
+/* 점수 */
+.matchbox_home .matchbox_score_area {
+    text-align: right;
+}
+
+.matchbox_score_area {
+    padding-top: 21px;
+    min-width: 78px;
+}
+
+.matchbox_score_area .matchbox_score {
+    font-size: 43px;
+}
+
+.matchbox_score {
+    line-height: 43px;
+    font-family: "Anton", Arial, sans-serif;
+    font-weight: 400;
+}
+
+/*--- away 팀 점수 + 팀 + 투수 ---*/ 
+.matchbox_comp_match_box .matchbox_away {
+    padding-left: 73px;
+}
+
+.matchbox_away {
+    position: relative;
+    display: flex;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.matchbox_comp_match_box .matchbox_team_area {
+    padding: 5px 0 0;
+}
+
+.matchbox_away .matchbox_team_area {
+    -webkit-box-ordinal-group: 2;
+    order: 1;
+}
+
+.matchbox_away .matchbox_image {
+    float: left;
+}
+
+.matchbox_away .matchbox_team_area .matchbox_text {
+    text-align: left;
+}
+
+.matchbox_team_area .matchbox_bagde {
+    width: 17px;
+    height: 17px;
+    margin: -4px 6px 0 0;
+    font-size: 11px;
+    line-height: 17px;
+}
+
+.matchbox_team_area .matchbox_badge {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #163379;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* 스코어 박스 */
+table{
+    border-collapse: collapse;
+}
+
+table { /*user agent stylesheet */
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+.scorebox_comp_score_box {
+    position: relative;
+    background-color: #264ba4;
+    color: #fff;
+}
+
+.scorebox_score_board {
+    height: 79px;
+}
+
+.scorebox_score_board {
+    position: relative;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.scorebox_score_board {
+    padding: 0 15px;
+    display: flex;
+}
+
+.scorebox_score_board::before{
+    top: 26px;
+}
+
+.scorebox_score_board::before{
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .08);
+    content: "";
+}
+
+.scorebox_score_board .scorebox_title {
+    min-width: 53px;
+}
+
+.scorebox_score_board .scorebox_title {
+    width: auto;
+    font-size: 12px;
+}
+
+.scorebox_score_board .scorebox_title {
+    position: relative;
+    margin-right: 4px;
+}
+
+.scorebox_score_board .scorebox_title .scorebox_team {
+    height: 27px;
+    padding: 0;
+    line-height: 26px;
+}
+
+.scorebox_title .scorebox_team {
+    color: #91adf1;
+}
+
+.scorebox_score_board .scorebox_title .scorebox_home {
+    padding: 10px 0 0;
+}
+
+.scorebox_score_board .scorebox_title .scorebox_home {
+    height: 16px;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.scorebox_score_board .scorebox_title .scorebox_home {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.scorebox_score_board .scorebox_title .scorebox_away {
+    height: 16px;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.scorebox_score_board .scorebox_title .scorebox_away {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.scorebox_score_board .scorebox_round {
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+}
+
+.scorebox_score_board .scorebox_round .scorebox_board_table {
+    width: auto;
+}
+
+.scorebox_board_table {
+    table-layout: fixed;
+}
+
+.scorebox_score_board .scorebox_round .scorebox_board_table th:first-child {
+    width: 0;
+}
+
+.scorebox_score_board .scorebox_board_table thead th {
+    height: 27px;
+    line-height: 26px;
+}
+
+.scorebox_score_board .scorebox_board_table th {
+    font-size: 12px;
+}
+
+.scorebox_round .scorebox_board_table th:first-child {
+    min-width: 0;
+}
+
+.scorebox_board_table th {
+    color : #91adf1;
+    font-weight: 400;
+}
+
+.scorebox_socre_board.scorebox_table .scorebox_board_table th span {
+    height: 26px;
+}
+
+.scorebox_board_table th span {
+    display: inline-block;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.scorebox_score_board .screbox_round .scorebox_board_table th {
+    width: 30px;
+}
+
+.scorebox_board_table th.scorebox_on span {
+    position: relative;
+    display: block;
+}
+
+.scorebox_score_board .scorebox_board_table th.scorebox_on span {
+    max-width: 15px;
+}
+
+th.scorebox_on span {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    bottom: -1px;
+    border-bottom: 2px solid;
+    transform: translateX(-50%);
+    z-index: 3010;
+    content: "";
+}
+
+.scorebox_score_board .scorebox_board_table tr:first-child td {
+    padding: 9px 0 1px;
+}
+
+.scorebox_score_board .scorebox_round .scorebox_board_table td {
+    width: 30px;
+}
+
+.scorebox_score_board .scorebox_board_table {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.scorebox_board_table td {
+    height: 15px;
+    text-align: center;
+}
+
+.scorebox_score_board .scorebox_result {
+    width: 122px;
+    margin-left: 11px;
+}
+
+.screobox_score_board .scorebox_result {
+    position: relative;
+    margin-left: -6px;
+    color: #71bcff;
+}
+
+.scorebox_score_board .scorebox_result .scorebox_board_table {
+    width: 100%;
+}
+
+.scorebox_score_board .scorebox_result .scorebox_board_table th:first-child {
+    font-weight: 700;
+}
+
+.scorebox_score_board .scorebox_result .scorebox_board_table th {
+    width: 33px;
+}
+
+.scorebox_result .scorebox_board_table th {
+    color: #71bcff;
+}
+
+.scorebox_score_board .scorebox_result .scorebox_board_table td:first-child {
+    font-weight: 700;
+}
+
+.scorebox_score_board .scorebox_board_table tr:first-child td {
+    padding: 9px 0 1px;
+}
+
+.scorebox_score_board .scorebox_result .scorebox_board_table td {
+    width: 33px;
+}
+
+.scorebox_score_board .scorebox_result .scorebox_board_table td {
+    color: #71bcff;
+}
+
+caption { /*user agent stylesheet */
+    display: table-caption;
+    /*text-align: -webkit;*/
+    unicode-bidi: isolate;
+}
+
+thead { /*user agent stylesheet */
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+tr { /*user agent stylesheet */
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+tbody { /*user agent stylesheet */
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+/* ------------------------------------------------------------- */
+.home_expanded_section {
+    width: 520px; /* 원래 338px */
+    height: 900px; /* 내가 추가한 코드 */
+    margin-left: 24px;
+    flex-shrink: 0;
+}
+
+.cheertab_comp_cheer_tab {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cheertab_comp_cheer_tab {
+    position: relative;
+}
+
+.cheertab_comment_area {
+    position: sticky;
+    top: 0px;
+}
+
+.commentmodule_comp_comment {
+    padding: 0;
+    border-radius: 10px;
+}
+
+/* 오픈톡 흰색 배경 */
+.commentmodule_comp_comment {
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    height: 900px; /* 내가 추가한 코드 */
+}
+/* 오픈톡 로고 밑 회색 줄 */
+.commentmodule_comment_title {
+    display: block;
+    height: 62px;
+    border-bottom: 1px solid#ecedee;
+}
+
+.cheer_talk_logo { 
+    width: 92px;
+    height: 18px;
+}
+
+.commentmodule_comment_title .commentmodule_logo_cheer_talk {
+    margin: 22px 0 0 26px;
+    vertical-align: top;
+}
+
+.commentmodule_comp_comment .u_cbox {
+    display: flex;
+    padding: 20px 24px 0;
+}
+
+.u_cbox {
+    position: relative;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+    text-size-adjust: none;
+}
+
+/* 임의로 넣음 */
+.commentmodule_comp_comment .u_cbox {
+    height: 100%;
+}
+
+.commentmodule_comp_comment .u_cbox .u_cbox_wrap {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    max-height: 1045px;
+}
+
+.commentmodule_comp_comment .u_cbox .u_cbox_wrap {
+    width: 100%;
+}
+
+.u_cbox .u_cbox_wrap {
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.commment_comp_comment .u_cbox .u_cbox_head {
+    display: flex;
+    padding-right: 120px;
+}
+
+.u_cbox .u_cbox_head {
+    min-height: 22px;
+}
+
+.u_cbox .u_cbox_title {
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.commentmodule_comp_comment .u_cbox .u_cbox_count {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.u_cbox .u_cbox_count {
+    color: #222;
+}
+
+.u_cbox .u_cbox_count {
+    float: left;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+}
+
+.commentmodule_comp_comment .commentmodule_logo_talk {
+    margin-right: 5px;
+}
+
+.commentmodule_comp_comment .commentmodule_logo_talk {
+    display: inline-block;
+    background-size: contain;
+    vertical-align: top;
+    content: "";
+}
+
+.u_cbox_count .u_cbox_count_word {
+    display: inline;
+    line-height: 1.31;
+    letter-spacing: -1px;
+}
+
+.u_cbox .u_cbox_write_box {
+    position: relative;
+}
+
+.chat-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* 수정 */
+}
+
+.u_cbox .u_cbox_profile_area {
+    display: block;
+}
+
+.commentmodule_comp_comment .u_cbox .u_cbox_profile_area {
+    padding-left: 12px;
+}
+
+.u_cbox .u_cbox_profile_area {
+    padding: 12px 0 0 15px;
+}
+
+.u_cbox .u_cbox_focus .u_cbox_profile {
+    display: block;
+}
+
+.u_cbox .u_cbox_profile {
+    overflow: hidden;
+}
+
+.u_cbox .u_cbox_box_name {
+    color: #222;
+}
+
+.u_cbox .u_cbox_box_name {
+    display: block;
+    overflow: hidden;
+    min-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.54;
+    letter-spacing: -0.5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.commentmodule_comp_comment .u_cbox .u_cbox_content_wrap {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 18px -24px 0;
+    padding: 0 24px;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('/static/NanumGothic.ttf') format('truetype');
+}
+
+
+.chat-form textarea {
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: 'NanumGothic';
+    resize: none; /* 마우스로 크기 조절 불가 */
+}
+
+.form-footer {
+    display: flex;
+    justify-content: flex-end; /* 오른쪽 정렬 */
+    align-items: center;
+    gap: 10px;
+}
+
+.char-count {
+    color: #888;
+}
+
+.chat-form button {
+    background-color: #b0b3be;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-form button.active {
+    background-color: #03c75a; /* 글자 입력 시 색상 */
+}
+
+.chat-form button:hover {
+    background-color: #03c75a;
+}
+
+/* 채팅 메시지 스타일 */
+#messages {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    margin-left: 23px;
+    margin-right: 0;
+    font-family: 'NanumGothic'; /* 추가 */
+    font-weight: bold; /* 추가 */
+}
+
+.message {
+    margin-top: 0; /* 추가 */
+    margin: 12px 29px 0 0; /* 추가 */
+    padding: 12px 14px; /* 수정 */
+    border-radius: 5px;
+    max-width: 100%;
+    word-wrap: break-word;
+    font-size: 30px; /* 기본 글자 크기 설정 */
+}
+
+.message.sent {
+    background-color: #d8ecff; /* 송신된 메시지 하늘색 */
+    margin-left : 40px; /* 추가 */
+    margin-right : 0;
+    font-size: 30px; /* 송신된 메시지 글자 크기 설정 */
+    }
+
+.message.received {
+    background-color: #e0e0e0; /* 수신된 메시지 회색 */
+    align-self: flex-start;
+    text-align: left;
+    font-size: 30px; /* 수신된 메시지 글자 크기 설정 */
+}
+
+.chat-section .u_cbox_write_wrap .cbox_module_wai_u_cbox_content {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.cbox_module_wai_u_cbox_content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.u_cbox ul {
+    list-style: none;
+}
+
+#ws-id {
+    display: block;
+    overflow: hidden;
+    min-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.54;
+    letter-spacing: -0.5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

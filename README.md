@@ -38,21 +38,24 @@
 
 
 ### 클린업 솔루션 알고리즘 특징
-
+<img width="1282" height="510" alt="Image" src="https://github.com/user-attachments/assets/a01e9b71-0f01-48c0-a580-014d3681f1c7" />
+<img width="1286" height="408" alt="Image" src="https://github.com/user-attachments/assets/716d610f-de32-45d5-bf5a-1df4922469b3" />
+<img width="1285" height="466" alt="Image" src="https://github.com/user-attachments/assets/02acde01-554d-4408-8744-816261d590a8" />
 
 ---
 ## 알고리즘 설계 및 개발
 ### 모델 선정 과정
+<img width="1296" height="481" alt="Image" src="https://github.com/user-attachments/assets/ee704754-f3ee-408e-890a-5672e6039868" />
 
 
 
 ### 모델 성능 개선 과정
 
-
+<img width="1158" height="427" alt="Image" src="https://github.com/user-attachments/assets/1334375c-6767-402f-ab0c-08c71dfc6645" />
 
 ### 모델 평가
 
-
+<img width="1275" height="455" alt="Image" src="https://github.com/user-attachments/assets/667b100f-f546-4fa3-aa1b-790a95baae74" />
 
 
 ### 데이터 세트의 특징

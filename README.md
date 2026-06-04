@@ -15,7 +15,12 @@
 
 ---
 ## 핵심 성과
+<img width="1275" height="455" alt="Image" src="https://github.com/user-attachments/assets/667b100f-f546-4fa3-aa1b-790a95baae74" />
 
+```text
+[val data] Macro F1 = 0.9580 | Acc = 0.9675
+[unseen data] Macro F1 = 0.8227 | Acc = 0.8776
+```
 
 ---
 ## 프로젝트 개요
@@ -37,7 +42,7 @@
 <img width="1287" height="585" alt="Image" src="https://github.com/user-attachments/assets/5f24671c-3d09-4fc9-8af9-eefb7b24abe9" />
 
 
-### 클린업 솔루션 알고리즘 특징
+### 채팅 데이터 유해 유형 및 솔루션
 <img width="1282" height="510" alt="Image" src="https://github.com/user-attachments/assets/a01e9b71-0f01-48c0-a580-014d3681f1c7" />
 <img width="1286" height="408" alt="Image" src="https://github.com/user-attachments/assets/716d610f-de32-45d5-bf5a-1df4922469b3" />
 <img width="1285" height="466" alt="Image" src="https://github.com/user-attachments/assets/02acde01-554d-4408-8744-816261d590a8" />

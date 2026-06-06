@@ -47,7 +47,7 @@
 #### 욕설/비속어, 멸칭 ▶ re모듈 & 정규표현식 활용, 비공식 언어 표현 마스킹 및 대체어 출력
 <img width="1285" height="466" alt="Image" src="https://github.com/user-attachments/assets/02acde01-554d-4408-8744-816261d590a8" />
 
-## 클린업 특장점
+## 클린업 솔루션 특장점
 ### "야구 채팅 언어 특화 솔루션"
 
 **1. 표현 순화&긍정화**
@@ -94,13 +94,7 @@ Grid Search를 통해 가장 높은 Validation Accuracy 값을 갖는 조합을 
 ## 시스템 구현
 <img width="1100" height="693" alt="image" src="https://github.com/user-attachments/assets/ea3e7a5e-303c-4a80-b20b-690303207a9b" />
 
-#### FastAPI와 WebSocket을 이용하여 채팅 시스템을 구현하였습니다.
-- 클린업 솔루션 
-1. 사용자가 채팅창에 채팅 메세지를 입력
-2. 욕설/비속어, 멸칭 탐지
-3. 유해 유형 분류를 통해 메세지의 유형 분류
-4. 무해 메세지는 바로 노출, 유해 메세지는 유형에 따라 필터링 후 노출
+FastAPI와 WebSocket을 이용하여 채팅 시스템을 구현하였습니다.
 
 
-- 한계: 데이터상의 한계, 모델 구축상의 한계, HW상의 한계 등
-- 보완 방안: 내가 해결할 수 있는 것 위주로 쓰기
+
